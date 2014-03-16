@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--最小单位是task，target是task的集合 -->
+<project name="copysrc" basedir="./" default="copysrc">
+	
+	<target name="copysrc">
+		  <copy todir="/opt/camelworld/alone">
+		    <fileset dir="${basedir}">
+		    </fileset>
+		  </copy>
+	</target>
+</project>
